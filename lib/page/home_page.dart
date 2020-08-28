@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_test_work/bloc/images_screen_bloc/bloc.dart';
-import 'package:flutter_test_work/models/colors.dart';
-import 'package:flutter_test_work/models/image.dart';
-import 'package:flutter_test_work/repositories/images_repository_interface.dart';
-import 'package:flutter_test_work/screens/image_screen.dart';
 
-import 'package:flutter_test_work/widgets/images_list.dart';
+import '../bloc/images_screen_bloc/bloc.dart';
+import '../models/colors.dart';
+import '../models/image.dart';
+import '../repositories/images_repository_interface.dart';
+import '../screens/image_screen.dart';
+import '../widgets/images_list.dart';
 
 class ImagesPage extends StatefulWidget {
   @override

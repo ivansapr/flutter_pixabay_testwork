@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_test_work/models/image.dart';
 
+import '../models/image.dart';
 import 'image_list_tile.dart';
 
 class ImagesListView extends StatelessWidget {

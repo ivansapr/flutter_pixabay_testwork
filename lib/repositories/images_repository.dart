@@ -2,13 +2,13 @@ import 'dart:io';
 import 'dart:typed_data';
 
 import 'package:flutter/foundation.dart';
-import 'package:flutter_test_work/models/image.dart';
-import 'package:flutter_test_work/services/file_service_interface.dart';
 import 'package:image_gallery_saver/image_gallery_saver.dart';
 import 'package:permission_handler/permission_handler.dart';
 
 import '../models/api/pagination.dart';
 import '../models/colors.dart';
+import '../models/image.dart';
+import '../services/file_service_interface.dart';
 import '../services/images_service_interface.dart';
 import 'images_repository_interface.dart';
 

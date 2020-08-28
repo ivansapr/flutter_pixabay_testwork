@@ -1,5 +1,6 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_test_work/services/images_service_interface.dart';
+
+import '../services/images_service_interface.dart';
 
 class PixabayService implements ImagesServiceInteface {
   String _apiUrl = 'https://pixabay.com/api/';

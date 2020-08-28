@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_test_work/services/file_service.dart';
 
 import './repositories/images_repository_interface.dart';
 import './screens/home_screen.dart';
+import './services/file_service.dart';
 import './services/pixabay_service.dart';
 import 'repositories/images_repository.dart';
 import 'routes.dart';

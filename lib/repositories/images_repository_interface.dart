@@ -1,8 +1,6 @@
-import 'package:flutter_test_work/models/api/pagination.dart';
-import 'package:flutter_test_work/models/colors.dart';
-import 'package:flutter_test_work/models/image.dart';
-
 import '../models/api/pagination.dart';
+import '../models/colors.dart';
+import '../models/image.dart';
 import '../services/images_service_interface.dart';
 
 abstract class ImagesRepositoryInterface {

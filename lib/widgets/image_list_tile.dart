@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_test_work/models/image.dart';
+
+import '../models/image.dart';
 
 class ImageListTileWidget extends StatelessWidget {
   const ImageListTileWidget({Key key, this.image, this.onTap})

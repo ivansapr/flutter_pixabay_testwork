@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_test_work/models/image.dart';
-import 'package:flutter_test_work/page/image_page.dart';
+
+import '../models/image.dart';
+import '../page/image_page.dart';
 
 class ImageScreenArguments {
   ImageScreenArguments(this.image);

@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_test_work/models/image.dart';
-import 'package:flutter_test_work/repositories/images_repository_interface.dart';
+
+import '../models/image.dart';
+import '../repositories/images_repository_interface.dart';
 
 class ImagePage extends StatefulWidget {
   const ImagePage({
@@ -21,7 +22,6 @@ class _ImagePageState extends State<ImagePage> {
   @override
   void initState() {
     super.initState();
-
     repository = RepositoryProvider.of<ImagesRepositoryInterface>(context);
   }
 
